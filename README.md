@@ -1,3 +1,1 @@
-# HPI_ICD_Analysis
-
 This analysis applies an NLP model trained on ~35,000 sets of symptoms, associated body sites (e.g. left knee pain) and ICD-10 diagnosis codes to evaluate diagnosis code predictions for ~9,000 sets of symptoms and associated body sites. Input data were tokenized, then processed using a convolutional neural network with dropout and L2 regularization within the Tensorflow framework. Top_k_categorical_accuracy with k=5 was chosen to evaluate the model, which stands at 52%.
